@@ -1,0 +1,36 @@
+{
+  "name": "mcp-notes",
+  "version": "1.0.0",
+  "description": "一个基于 Model Context Protocol (MCP) 的高级笔记管理服务器",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "dev": "tsc -w",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "notes",
+    "note-taking",
+    "model-context-protocol"
+  ],
+  "author": "yordyi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yordyi/mcp-notes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yordyi/mcp-notes/issues"
+  },
+  "homepage": "https://github.com/yordyi/mcp-notes#readme",
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.3",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.2",
+    "better-sqlite3": "^11.7.0",
+    "typescript": "^5.7.2"
+  }
+}
